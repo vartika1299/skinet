@@ -1,0 +1,12 @@
+/Users/vartikasachan/skinet/API/Core/bin/Debug/net7.0/Core.deps.json
+/Users/vartikasachan/skinet/API/Core/bin/Debug/net7.0/Core.dll
+/Users/vartikasachan/skinet/API/Core/bin/Debug/net7.0/Core.pdb
+/Users/vartikasachan/skinet/API/Core/obj/Debug/net7.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vartikasachan/skinet/API/Core/obj/Debug/net7.0/Core.AssemblyInfoInputs.cache
+/Users/vartikasachan/skinet/API/Core/obj/Debug/net7.0/Core.AssemblyInfo.cs
+/Users/vartikasachan/skinet/API/Core/obj/Debug/net7.0/Core.csproj.CoreCompileInputs.cache
+/Users/vartikasachan/skinet/API/Core/obj/Debug/net7.0/Core.dll
+/Users/vartikasachan/skinet/API/Core/obj/Debug/net7.0/refint/Core.dll
+/Users/vartikasachan/skinet/API/Core/obj/Debug/net7.0/Core.pdb
+/Users/vartikasachan/skinet/API/Core/obj/Debug/net7.0/ref/Core.dll
+/Users/vartikasachan/skinet/API/Core/obj/Debug/net7.0/Core.csproj.AssemblyReference.cache
