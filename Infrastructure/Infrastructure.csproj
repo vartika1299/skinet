@@ -12,10 +12,12 @@
   <ItemGroup>
     <None Remove="Data\" />
     <None Remove="Configs\" />
+    <None Remove="Data\SeedData\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Configs\" />
+    <Folder Include="Data\SeedData\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj" />
