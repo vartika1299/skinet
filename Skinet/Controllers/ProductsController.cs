@@ -21,9 +21,9 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts()
+        public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts(string? brand, string? type)
         {
-            return Ok(await repo.GetProductsAsync());
+            return Ok(await repo.GetProductsAsync(brand,type));
         }
 
         [HttpGet("{id:int}")]
@@ -73,6 +73,18 @@ namespace API.Controllers
             }
             return BadRequest("Problem deleting the product.");
 
+        }
+
+        [HttpGet("brands")]
+        public async Task<ActionResult<IReadOnlyList<string>>> GetBrands()
+        {
+            return Ok(await repo.GetBrandAsync());
+        }
+
+        [HttpGet("types")]
+        public async Task<ActionResult<IReadOnlyList<string>>> GetTypes()
+        {
+            return Ok(await repo.GetTypeAsync());
         }
 
         private bool ProductExists(int id)
